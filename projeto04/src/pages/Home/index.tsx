@@ -1,6 +1,11 @@
-import {Header} from "components";
+import {Header, Footer} from "components";
+
+
 
 const Home = () =>{
-    return <Header/>;
+    return <> 
+        <Header/> 
+        <Footer/>
+        </>;
 };
 export default Home;

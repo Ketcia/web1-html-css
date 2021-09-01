@@ -21,7 +21,7 @@ export const Header = styled.header`
 
     h1{
     margin-top: 1rem;
-    font-family:Gemunu Libre ExtraBold;
+    font-family: Gemunu Libre;
     width: 100%;
     background-color: black;
         a{

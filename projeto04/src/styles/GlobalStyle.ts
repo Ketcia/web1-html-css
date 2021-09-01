@@ -2,11 +2,11 @@ import {createGlobalStyle} from "styled-components"
 
 
 export default createGlobalStyle`
-    @font-face {
+    @font-face{
         font-family: 'Gemunu Libre';
         font-style: normal;
         font-weight: 400;
-        src:url('assets/fonts/GemunuLibre-Regular.woff') format('woff');
+        src: url('assets/fonts/GemunuLibre-Regular.woff')format('woff');
     }
 *{
     background-color: #363636;
@@ -15,7 +15,14 @@ export default createGlobalStyle`
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-    font-family: "Gemunu Libre"
+    font-family:"Gemunu Libre"
+}
+
+body{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    min-width: 480px;
 }
 `
 
