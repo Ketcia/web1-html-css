@@ -1,10 +1,9 @@
-import {Header, Footer} from "components";
-
-
+import {Header, Footer, Indexmain} from "components";
 
 const Home = () =>{
     return <> 
-        <Header/> 
+        <Header/>
+        <Indexmain/> 
         <Footer/>
         </>;
 };
